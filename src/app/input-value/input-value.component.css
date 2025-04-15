@@ -1,0 +1,21 @@
+.input-text{
+    width: 270px;
+    padding: 5px;
+    font-size: 18px;
+}
+
+.btn{
+    width: 270px;
+    padding:5px;    
+    border-radius: 50px;
+    margin: 20px;
+    border: 2px solid black;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: rgb(27, 176, 97);
+    color: white;
+}
+
+.btn:hover{
+    border: 1px solid white;
+};

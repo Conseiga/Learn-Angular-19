@@ -1,0 +1,43 @@
+main{
+    margin: 50px;
+    background-color: aqua;
+    
+}
+
+.counter{
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: gray;
+    color: white;
+    text-align: center;
+    border-radius: 15px;
+    width: 100px;
+}
+
+.btn{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin: 10px;
+    border: 2px solid black;
+    color : white;
+    cursor: pointer;
+}
+
+.btn:hover{
+    border: 1px solid white;
+}
+
+
+.bg-green{
+    background-color: green;
+}
+
+.bg-red{
+    background-color: red;
+}
+
+.bg-black{
+    background-color: black;
+}

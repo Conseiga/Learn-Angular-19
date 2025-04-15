@@ -1,0 +1,7 @@
+<main style="text-align: center; margin: 50px;">
+    <h1>Input Value</h1>
+    <input #usernameInput (input)="getUserName($event)" class="input-text" type="text" placeholder="enter username"><br>
+    <input value="{{usernameInputValue}}" class="input-text" type="text" placeholder="username" readonly><br>
+    <button (click)="displayUserName(usernameInput.value)" class="btn">Save</button>
+    <p>{{username}}</p>
+</main>
